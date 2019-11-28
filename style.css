@@ -1,14 +1,13 @@
 header{
-    background-color: chocolate;
+    background-color: rgb(163, 133, 0);
     height: 10vh;
 }
-figure{
-    background-color: brown;
-    height: 10vh;
+img{
+    height: 8vh;
 }
 main{
     background-color: chocolate;
-    height: 10vh;
+    height: 150vh;
 }
 section{
     width: 70%;
@@ -23,18 +22,44 @@ h2{
 .entete{
     background-color: rgb(46, 37, 7);
     color: rosybrown;
-    height: 4,3vh;
+    height: 4.3vh;
+    display: flex;
+    justify-content: space-around ;
 }
 .blanc{
     height: 3vh;
+    display: flex;
+    justify-content: space-between;
 }
 .clair{
     background-color: sienna;
     height: 3vh;
+    display: flex;
+    justify-content: space-between;
 }
 footer{
     background-color: darkolivegreen;
     height: 10vh;
+    width: 70%;
     position: fixed;
     bottom: 0px;
+}
+.haut{
+    display: flex;
+    width: 36%;
+    justify-content: space-around;
+    margin-left: 58%;
+}
+.prix{
+    display: flex;
+    margin-right: 25px;
+}
+.dix{
+    margin-right: 32px;
+}
+.quinze{
+    margin-right: 20px;
+}
+.zero{
+    margin-left: 20px;
 }
